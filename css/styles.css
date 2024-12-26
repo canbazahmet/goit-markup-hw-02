@@ -1,0 +1,317 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  line-height: 1.6;
+}
+
+.container {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 72px;
+  padding: 24px 0;
+  background-color: #fff;
+}
+
+header .logo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #2e2f42;
+  text-decoration: none;
+  margin-left: 156px;
+}
+
+header .logo span {
+  color: #007bff;
+}
+
+header nav {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 261px;
+  height: 24px;
+  margin-left: 78px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header .nav-links {
+  text-decoration: none;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  list-style-type: none;
+}
+
+header .nav-links:hover {
+  color: #404bbf;
+}
+
+header address {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-left: 330px;
+}
+
+header address a {
+  font-size: 16px;
+  font-style: normal;
+  color: #434455;
+  text-decoration: none;
+}
+
+header address a:hover {
+  color: #404bbf;
+}
+
+section .hero {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  color: #fff;
+  padding: 100px;
+}
+
+section .hero .content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .hero h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0 0 50px 0;
+}
+
+section .hero .button {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #4d5ae5;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 4px;
+}
+
+section .hero .button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+section .features {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 344px;
+  padding: 120px 0;
+  text-align: center;
+}
+
+section .features .feature {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 264px;
+  height: 104px;
+  margin-right: 24px;
+  padding: 0;
+}
+
+section .features .feature:last-child {
+  margin-right: 0;
+}
+
+section .features .feature h3 {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+section .features .feature p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-align: left;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+section .team {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 732px;
+  background-color: #f4f4fd;
+  padding: 80px 0 120px 0;
+  text-align: center;
+}
+
+section .team .member {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 264px;
+  height: 380px;
+  margin-right: 24px;
+  padding: 0;
+  background-color: #fff;
+}
+
+section .team .member:last-child {
+  margin-right: 0;
+}
+
+section .team h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #2e2f42;
+  padding-bottom: 50px;
+}
+
+section .team .member h3 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 0 0 20px;
+  margin: 0;
+}
+
+section .team .member p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+section .portfolio {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 1240px;
+  background-color: #fff;
+  padding: 80px 0 120px 0;
+  text-align: center;
+}
+
+section .portfolio .portfolio-item {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 360px;
+  height: 420px;
+  margin-right: 24px;
+  margin-bottom: 50px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+section .portfolio .portfolio-item:nth-of-type(3n + 3) {
+  margin-right: 0;
+}
+
+section .portfolio h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #2e2f42;
+  padding-bottom: 40px;
+}
+
+section .portfolio .portfolio-item h3 {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  padding: 20px 0 0 20px;
+  margin: 0;
+}
+
+section .portfolio .portfolio-item p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-align: left;
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+footer {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 312px;
+  background-color: #2e2f42;
+  padding: 105px 0;
+}
+
+footer .logo {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 156px;
+}
+
+footer .logo span {
+  color: #4d5ae5;
+}
+
+footer p {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 264px;
+  height: 380px;
+  margin-right: 24px;
+  padding: 0;
+  color: #fff;
+  margin-left: 156px;
+}
