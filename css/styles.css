@@ -60,7 +60,27 @@ header nav ul li {
   display: inline-block;
 }
 
-header .nav-links {
+header .nav-links-1 {
+  text-decoration: none;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  list-style-type: none;
+  margin-right: 39px;
+}
+
+header .nav-links-2 {
+  text-decoration: none;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  list-style-type: none;
+  margin-right: 39px;
+}
+
+header .nav-links-3 {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
@@ -69,7 +89,15 @@ header .nav-links {
   list-style-type: none;
 }
 
-header .nav-links:hover {
+header .nav-links-1:hover {
+  color: #404bbf;
+}
+
+header .nav-links-2:hover {
+  color: #404bbf;
+}
+
+header .nav-links-3:hover {
   color: #404bbf;
 }
 
@@ -89,6 +117,10 @@ header address a {
 
 header address a:hover {
   color: #404bbf;
+}
+
+header address a:first-child {
+  margin-right: 39px;
 }
 
 section .hero {
@@ -243,7 +275,9 @@ section .portfolio .portfolio-item {
   margin-bottom: 50px;
   padding: 0;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 section .portfolio .portfolio-item:nth-of-type(3n + 3) {
@@ -256,6 +290,12 @@ section .portfolio h2 {
   line-height: 40px;
   color: #2e2f42;
   padding-bottom: 40px;
+}
+
+section .portfolio .portfolio-item img {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 section .portfolio .portfolio-item h3 {
@@ -271,7 +311,7 @@ section .portfolio .portfolio-item p {
   line-height: 24px;
   color: #434455;
   text-align: left;
-  padding: 10px 0 0 20px;
+  padding: 10px 0 20px 20px;
   margin: 0;
 }
 
