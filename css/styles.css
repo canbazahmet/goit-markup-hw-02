@@ -23,36 +23,32 @@ header {
   background-color: #fff;
 }
 
-header .logo {
+header nav {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  width: 115px;
-  height: 24px;
+  margin-left: 156px;
+}
+
+header nav .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
-  margin-left: 156px;
+  text-transform: uppercase;
 }
 
-header .logo span {
-  color: #007bff;
-}
-
-header nav {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 261px;
-  height: 24px;
-  margin-left: 78px;
+header nav .logo .studio {
+  color: #2e2f42;
 }
 
 header nav ul {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
   margin: 0;
   padding: 0;
 }
