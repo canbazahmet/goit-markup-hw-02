@@ -58,7 +58,7 @@ header nav ul li {
   display: inline-block;
 }
 
-header ul li .nav-links-1 {
+header ul li .nav-links {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
@@ -69,36 +69,7 @@ header ul li .nav-links-1 {
   margin-right: 39px;
 }
 
-header ul li .nav-links-2 {
-  text-decoration: none;
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  list-style-type: none;
-  margin-right: 39px;
-}
-
-header ul li .nav-links-3 {
-  text-decoration: none;
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  list-style-type: none;
-}
-
-header nav ul li .nav-links-1:hover {
-  color: #404bbf;
-}
-
-header nav ul li .nav-links-2:hover {
-  color: #404bbf;
-}
-
-header nav ul li .nav-links-3:hover {
+header nav ul li .nav-links:hover {
   color: #404bbf;
 }
 
