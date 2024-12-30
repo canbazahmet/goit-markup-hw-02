@@ -5,29 +5,11 @@ html {
   color: #434455;
 }
 
-.container {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  margin: 0 auto;
-}
-
 header {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  height: 72px;
-  padding: 24px 0;
   background-color: #ffffff;
 }
 
 header nav {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 600px;
   margin-left: 156px;
 }
 
@@ -47,15 +29,9 @@ header nav .logo .studio {
 }
 
 header nav ul {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
 }
 
 header nav ul li {
-  display: inline-block;
 }
 
 header ul li .nav-links {
@@ -66,7 +42,6 @@ header ul li .nav-links {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
-  margin-right: 39px;
 }
 
 header nav ul li .nav-links:focus {
@@ -78,10 +53,6 @@ header nav ul li .nav-links:hover {
 }
 
 header .info {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  margin-left: 330px;
   font-style: normal;
 }
 
@@ -101,33 +72,21 @@ header .info .info-links:hover {
   color: #404bbf;
 }
 
-section .hero {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  height: 600px;
+section.hero {
   background-color: #2e2f42;
   color: #ffffff;
-  padding: 100px;
 }
 
-section .hero .content {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-section .hero h1 {
+section.hero .hero-text {
   font-size: 56px;
-  font-weight: bold;
-  line-height: 60px;
-  margin: 0 0 50px 0;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-section .hero .button {
+section.hero .button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -135,84 +94,41 @@ section .hero .button {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  padding: 16px 32px;
-  border: 0;
   cursor: pointer;
 }
 
-section .hero .button:focus {
+section.hero .button:hover {
   background-color: #404bbf;
 }
 
-section .hero .button:hover {
+section.hero .button:focus {
   background-color: #404bbf;
 }
 
-section .features {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  height: 344px;
-  padding: 120px 0;
-  text-align: center;
+section.features {
 }
 
-section .features .feature {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 264px;
-  height: 104px;
-  margin-right: 24px;
-  padding: 0;
+section.features .feature {
 }
 
-section .features .feature:last-child {
-  margin-right: 0;
-}
-
-section .features .feature h3 {
+section.features .feature h3 {
   font-size: 20px;
   line-height: 24px;
-  text-align: left;
-  padding: 0;
-  margin: 0;
 }
 
-section .features .feature p {
+section.features .feature p {
   font-size: 16px;
   line-height: 24px;
   color: #434455;
   text-align: left;
-  padding: 10px 0 0 0;
-  margin: 0;
 }
 
 section .team {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
-  padding: 80px 0 120px 0;
-  text-align: center;
 }
 
 section .team .member {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 264px;
-  height: 380px;
-  margin-right: 24px;
-  padding: 0;
   background-color: #ffffff;
-}
-
-section .team .member:last-child {
-  margin-right: 0;
 }
 
 section .team h2 {
@@ -220,52 +136,25 @@ section .team h2 {
   font-weight: bold;
   line-height: 40px;
   color: #2e2f42;
-  padding-bottom: 50px;
 }
 
 section .team .member h3 {
   font-size: 20px;
   line-height: 24px;
-  padding: 20px 0 0 20px;
-  margin: 0;
 }
 
 section .team .member p {
   font-size: 16px;
   line-height: 24px;
   color: #434455;
-  padding: 10px 0 0 20px;
-  margin: 0;
 }
 
 section .portfolio {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  height: 1240px;
   background-color: #ffffff;
-  padding: 80px 0 120px 0;
-  text-align: center;
 }
 
 section .portfolio .portfolio-item {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 360px;
-  height: 420px;
-  margin-right: 24px;
-  margin-bottom: 50px;
-  padding: 0;
   background-color: #ffffff;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-}
-
-section .portfolio .portfolio-item:nth-of-type(3n + 3) {
-  margin-right: 0;
 }
 
 section .portfolio h2 {
@@ -273,55 +162,30 @@ section .portfolio h2 {
   font-weight: bold;
   line-height: 40px;
   color: #2e2f42;
-  padding-bottom: 40px;
-}
-
-section .portfolio .portfolio-item img {
-  padding: 0;
-  margin: 0;
-  border: 0;
 }
 
 section .portfolio .portfolio-item h3 {
   font-size: 20px;
   line-height: 24px;
-  text-align: left;
-  padding: 20px 0 0 20px;
-  margin: 0;
 }
 
 section .portfolio .portfolio-item p {
   font-size: 16px;
   line-height: 24px;
   color: #434455;
-  text-align: left;
-  padding: 10px 0 20px 20px;
-  margin: 0;
 }
 
 footer {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
-  padding: 105px 0;
 }
 
 footer .logo {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  width: 115px;
-  height: 24px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 21px;
   color: #ffffff;
   text-decoration: none;
-  margin-left: 156px;
 }
 
 footer .logo span {
@@ -329,13 +193,4 @@ footer .logo span {
 }
 
 footer p {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  width: 264px;
-  height: 380px;
-  margin-right: 24px;
-  padding: 0;
-  color: #ffffff;
-  margin-left: 156px;
 }
