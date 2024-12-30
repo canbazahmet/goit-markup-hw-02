@@ -20,7 +20,7 @@ header {
   width: 1440px;
   height: 72px;
   padding: 24px 0;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 header nav {
@@ -69,6 +69,10 @@ header ul li .nav-links {
   margin-right: 39px;
 }
 
+header nav ul li .nav-links:focus {
+  color: #404bbf;
+}
+
 header nav ul li .nav-links:hover {
   color: #404bbf;
 }
@@ -81,17 +85,19 @@ header .info {
   font-style: normal;
 }
 
-header .info a {
+header .info .info-links {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
 
-header .info a:focus {
+header .info .info-links:focus {
   color: #404bbf;
 }
 
-header .info a:hover {
+header .info .info-links:hover {
   color: #404bbf;
 }
 
@@ -102,7 +108,7 @@ section .hero {
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
-  color: #fff;
+  color: #ffffff;
   padding: 100px;
 }
 
@@ -131,15 +137,14 @@ section .hero .button {
   background-color: #4d5ae5;
   padding: 16px 32px;
   border: 0;
-  border-radius: 4px;
   cursor: pointer;
 }
 
-section .hero .button:hover {
+section .hero .button:focus {
   background-color: #404bbf;
 }
 
-section .hero .button:focus {
+section .hero .button:hover {
   background-color: #404bbf;
 }
 
@@ -203,7 +208,7 @@ section .team .member {
   height: 380px;
   margin-right: 24px;
   padding: 0;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 section .team .member:last-child {
@@ -239,7 +244,7 @@ section .portfolio {
   overflow: hidden;
   width: 1440px;
   height: 1240px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 80px 0 120px 0;
   text-align: center;
 }
@@ -253,10 +258,10 @@ section .portfolio .portfolio-item {
   margin-right: 24px;
   margin-bottom: 50px;
   padding: 0;
-  background-color: #fff;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 section .portfolio .portfolio-item:nth-of-type(3n + 3) {
@@ -314,7 +319,7 @@ footer .logo {
   font-size: 18px;
   font-weight: bold;
   line-height: 21px;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin-left: 156px;
 }
@@ -331,6 +336,6 @@ footer p {
   height: 380px;
   margin-right: 24px;
   padding: 0;
-  color: #fff;
+  color: #ffffff;
   margin-left: 156px;
 }
