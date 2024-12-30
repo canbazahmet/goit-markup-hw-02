@@ -27,6 +27,7 @@ header nav {
   display: inline-block;
   position: relative;
   overflow: hidden;
+  width: 600px;
   margin-left: 156px;
 }
 
@@ -57,44 +58,47 @@ header nav ul li {
   display: inline-block;
 }
 
-header .nav-links-1 {
+header ul li .nav-links-1 {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   list-style-type: none;
   margin-right: 39px;
 }
 
-header .nav-links-2 {
+header ul li .nav-links-2 {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   list-style-type: none;
   margin-right: 39px;
 }
 
-header .nav-links-3 {
+header ul li .nav-links-3 {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   list-style-type: none;
 }
 
-header .nav-links-1:hover {
+header nav ul li .nav-links-1:hover {
   color: #404bbf;
 }
 
-header .nav-links-2:hover {
+header nav ul li .nav-links-2:hover {
   color: #404bbf;
 }
 
-header .nav-links-3:hover {
+header nav ul li .nav-links-3:hover {
   color: #404bbf;
 }
 
