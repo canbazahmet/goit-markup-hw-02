@@ -78,11 +78,11 @@ header address {
   position: relative;
   overflow: hidden;
   margin-left: 330px;
+  font-style: normal;
 }
 
 header address a {
   font-size: 16px;
-  font-style: normal;
   color: #434455;
   text-decoration: none;
 }
@@ -122,18 +122,25 @@ section .hero h1 {
 }
 
 section .hero .button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: normal;
-  color: #fff;
-  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4D5AE5;
   padding: 16px 32px;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 section .hero .button:hover {
-  background-color: #404bbf;
-  cursor: pointer;
+  background-color: #404BBF;
+}
+
+section .hero .button:focus {
+  background-color: #404BBF;
 }
 
 section .features {
