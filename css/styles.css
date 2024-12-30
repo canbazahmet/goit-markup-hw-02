@@ -73,7 +73,7 @@ header nav ul li .nav-links:hover {
   color: #404bbf;
 }
 
-header address {
+header .info {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -81,18 +81,18 @@ header address {
   font-style: normal;
 }
 
-header address a {
+header .info a {
   font-size: 16px;
   color: #434455;
   text-decoration: none;
 }
 
-header address a:hover {
+header .info a:focus {
   color: #404bbf;
 }
 
-header address a:first-child {
-  margin-right: 39px;
+header .info a:hover {
+  color: #404bbf;
 }
 
 section .hero {
@@ -128,7 +128,7 @@ section .hero .button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   padding: 16px 32px;
   border: 0;
   border-radius: 4px;
@@ -136,11 +136,11 @@ section .hero .button {
 }
 
 section .hero .button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 section .hero .button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 section .features {
